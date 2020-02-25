@@ -1,0 +1,29 @@
+
+<ion-header no-border>
+  <ion-toolbar>
+
+    <ion-buttons slot="start">
+      <ion-button (click)="toogleMenu()">
+        <ion-icon slot="icon-only" name="menu"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+
+    <ion-title>Inicio</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content padding>
+
+
+  <ion-list>
+
+    <ion-item *ngFor="let a of atributs | async" 
+              [routerLink]="a.redirectTo" detail>
+      <ion-icon slot="start" [name]="a.icon"></ion-icon>
+      <ion-label >{{a.name}}</ion-label>
+    </ion-item>
+
+  </ion-list>
+
+</ion-content>

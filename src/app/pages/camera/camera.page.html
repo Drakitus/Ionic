@@ -1,0 +1,16 @@
+<ion-header no-border translucent>
+  <ion-toolbar>
+      
+    <ion-buttons slot="start">
+        <ion-back-button defautHref="/"></ion-back-button>
+    </ion-buttons>
+
+    <ion-title>Alert</ion-title>
+  
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-button (click)="takePicture()">Take Picture</ion-button>
+  <img *ngIf="image" [src]="image" alt="image">
+</ion-content>

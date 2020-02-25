@@ -1,0 +1,118 @@
+[
+  {
+    "icon":"american-football",
+    "name":"Action Sheet",
+    "redirectTo": "/action-sheet"
+  },
+  {
+    "icon":"appstore",
+    "name":"Alert",
+    "redirectTo": "/alert"
+  },
+  {
+    "icon":"card",
+    "name":"Cards",
+    "redirectTo": "/card"
+  },
+  {
+    "icon":"checkmark-circle-outline",
+    "name":"Checkbox",
+    "redirectTo": "/check"
+  },
+  {
+    "icon":"calendar",
+    "name":"Date Time",
+    "redirectTo": "/date-time"
+  },
+  {
+    "icon":"car",
+    "name":"Fabs",
+    "redirectTo": "/fab"
+  },
+  {
+    "icon":"grid",
+    "name":"Grid-Rows",
+    "redirectTo": "/grid"
+  },
+  {
+    "icon":"infinite",
+    "name":"Infinite Scroll",
+    "redirectTo": "/infinite-scroll"
+  },
+  {
+    "icon":"hammer",
+    "name":"Input - Forms",
+    "redirectTo": "/input"
+  },
+  {
+    "icon":"list",
+    "name":"Listas - Sliding",
+    "redirectTo": "/list"
+  },
+  {
+    "icon":"reorder",
+    "name":"Listas - Reordenar",
+    "redirectTo": "/list-reorder"
+  },
+  {
+    "icon":"refresh-circle",
+    "name":"Loading",
+    "redirectTo": "/loading"
+  },
+  {
+    "icon":"phone-portrait",
+    "name":"Modal",
+    "redirectTo": "/modal"
+  },
+  {
+    "icon":"tablet-portrait",
+    "name":"Popover",
+    "redirectTo": "/popover"
+  },
+  {
+    "icon":"code-working",
+    "name":"ProgressBar and Range",
+    "redirectTo": "/progress-bar"
+  },
+  {
+    "icon":"arrow-round-down",
+    "name":"Refresher",
+    "redirectTo": "/refresher"
+  },
+  {
+    "icon":"search",
+    "name":"SearchBar",
+    "redirectTo": "/searchbar"
+  },
+  {
+    "icon":"copy",
+    "name":"Segment",
+    "redirectTo": "/segment"
+  },
+  {
+    "icon":"albums",
+    "name":"Slides",
+    "redirectTo": "/slides"
+  },
+  {
+    "icon":"cog",
+    "name":"Tabs",
+    "redirectTo": "/tabs"
+  },
+  {
+    "icon":"appstore",
+    "name":"Storage",
+    "redirectTo": "/storage"
+  },
+  {
+    "icon":"camera",
+    "name":"Camera",
+    "redirectTo": "/camera"
+  },
+  {
+    "icon":"appstore",
+    "name":"Requirement1",
+    "redirectTo": "/requirement1"
+  }
+    
+]

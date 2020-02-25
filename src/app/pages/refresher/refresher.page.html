@@ -1,0 +1,29 @@
+<ion-header no-border translucent>
+    <ion-toolbar>
+        
+            <ion-buttons slot="start">
+                <ion-back-button defautHref="/"></ion-back-button>
+            </ion-buttons>
+    
+        <ion-title>Refresher</ion-title>
+    
+    </ion-toolbar>
+</ion-header>
+
+
+<ion-content>
+
+  <ion-refresher slot="fixed" (ionRefresh)="doRefresh($event)">
+      <ion-refresher-content></ion-refresher-content>
+  </ion-refresher>
+
+  <h1 *ngIf="items.length === 0"
+      class="animated fadeIn fast">Pull to refresh</h1>
+
+  <ion-list *ngIf="items.length > 0"
+            class="animated fadeIn fast">
+    <ion-item *ngFor="let item of items; let i = index">
+      Item {{i + 1}} 
+    </ion-item>
+  </ion-list>
+</ion-content>

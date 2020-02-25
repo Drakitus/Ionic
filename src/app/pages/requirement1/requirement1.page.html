@@ -1,0 +1,23 @@
+<ion-header no-border>
+  <ion-toolbar>
+      
+          <ion-buttons slot="start">
+              <ion-back-button defautHref="/"></ion-back-button>
+          </ion-buttons>
+  
+      <ion-title>Nombres con alertas</ion-title>
+  
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-list>
+    <ion-item *ngFor="let item of names; let i = index">
+      <ion-label>{{names[i]}}</ion-label>
+      <ion-button color="primary" (click)="presentConfirm()"> Mostrar alerta</ion-button>
+    </ion-item>
+
+  </ion-list>
+
+</ion-content>
